@@ -57,3 +57,6 @@ body footer {
   padding-top: 30px;
   font-size: 20px;
 }
+body footer a {
+  color: white;
+}
