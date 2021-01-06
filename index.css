@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXooxW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sourceserifpro/v10/neIXzD-0qpwxpaWvjeD0X88SAOeasd8chSs.ttf) format('truetype');
+}
+body {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+body header {
+  background-color: #468189;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+body header h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 70px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+body header img {
+  height: 175px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  box-shadow: -5px 5px 11px -2px #000000;
+}
+body div {
+  margin-left: 20px;
+  font-family: 'Source Serif Pro', serif;
+}
+body div h2 {
+  border-bottom: 2px solid black;
+}
+body div ul {
+  font-size: 20px;
+}
+body footer {
+  height: 75px;
+  background-color: #468189;
+  border-radius: 10px;
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+}
