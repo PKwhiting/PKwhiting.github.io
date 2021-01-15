@@ -12,26 +12,21 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/sourceserifpro/v10/neIXzD-0qpwxpaWvjeD0X88SAOeasd8chSs.ttf) format('truetype');
 }
-body {
-  margin-right: 20%;
-  margin-left: 20%;
-}
 body header {
   background-color: #468189;
-  border-radius: 10px;
-  padding-top: 20px;
-  padding-left: 50px;
 }
 body header h1 {
   font-family: 'Bebas Neue', cursive;
   color: white;
-  font-size: 70px;
+  font-size: 40px;
+  text-align: center;
 }
 body header img {
   height: 175px;
-  float: right;
+  margin-right: auto;
+  margin-left: auto;
   box-shadow: -5px 5px 11px -2px #000000;
-  margin-right: 40px;
+  display: block;
 }
 body div {
   margin-left: 20px;
@@ -39,14 +34,13 @@ body div {
 }
 body div h2 {
   border-bottom: 2px solid black;
+  font-size: 25px;
 }
 body div ul {
   font-size: 20px;
 }
 body footer {
-  height: 75px;
   background-color: #468189;
-  border-radius: 10px;
   font-family: 'Source Serif Pro', serif;
   color: white;
   text-align: center;

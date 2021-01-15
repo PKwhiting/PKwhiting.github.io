@@ -1,0 +1,24 @@
+@media (min-width: 32.5em){
+    body {
+        margin-right: 20%;
+        margin-left: 20%;
+      }
+      body header {
+        border-radius: 10px;
+        padding-top: 20px;
+      }
+    html body header h1 {
+        font-size: 60px;
+        text-align: left;
+        margin-left: 30px;
+    }
+    html body header img {
+        float: right;
+        margin-right: 20px;
+        display: inline;
+
+    }
+    body footer {
+        border-radius: 10px;
+      }
+}
