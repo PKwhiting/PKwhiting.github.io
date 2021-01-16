@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Serif+Pro:wght@300&display=swap');
+@header-font-family: 'Bebas Neue', cursive;
+
+@text-font-family: 'Source Serif Pro', serif;
+@color-1:#031926;
+@color-2: #468189;
+@color-3: #77ACA2;
+@color-4: #9DBEBB;
+@color-5: #F4E9CD;
+
+@small-text: 20px;
+@medium-text: 25px;
+@large-text: 40px;
+
+body {
+    background-color: @color-4;
+    header {
+        background-color: @color-2;
+        text-align: center;
+        h1 {
+            font-family: @header-font-family;
+            color: white;
+            font-size: @large-text;
+            margin-top: 0px;
+            padding-top: 10px;
+        }
+        a {
+            font-family: @header-font-family;
+            font-size: @medium-text;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            color: @color-5;
+        }
+    }
+    .card {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: -5px 5px 11px -2px #000000;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-family: @text-font-family;
+        h2 {
+            background-color: @color-2;
+            color: white;
+            font-size: @medium-text;
+            border-top-right-radius: 25px;
+            border-top-left-radius: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        h3 {
+            font-size: @medium-text;
+        }
+        a {
+            font-size: @small-text;
+        }
+        img {
+            max-width: 90%;
+            border: black 1px solid;
+        }
+        p {
+            font-size: @small-text;
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-bottom: 5px;
+        }
+    }
+
+
+    footer {
+        background-color: @color-2;
+        font-family: @text-font-family;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-size: @small-text;
+        a {
+            color: white;
+        }
+    }
+}

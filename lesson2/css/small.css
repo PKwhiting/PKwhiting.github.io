@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXooxW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sourceserifpro/v10/neIXzD-0qpwxpaWvjeD0X88SAOeasd8chSs.ttf) format('truetype');
+}
+body {
+  background-color: #9DBEBB;
+}
+body header {
+  background-color: #468189;
+  text-align: center;
+}
+body header h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+body header a {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+body header a:hover {
+  color: #F4E9CD;
+}
+body .card {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: -5px 5px 11px -2px #000000;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Source Serif Pro', serif;
+}
+body .card h2 {
+  background-color: #468189;
+  color: white;
+  font-size: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body .card h3 {
+  font-size: 25px;
+}
+body .card a {
+  font-size: 20px;
+}
+body .card img {
+  max-width: 90%;
+  border: black 1px solid;
+}
+body .card p {
+  font-size: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+body footer {
+  background-color: #468189;
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+}
+body footer a {
+  color: white;
+}

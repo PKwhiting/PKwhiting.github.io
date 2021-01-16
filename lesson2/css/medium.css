@@ -1,0 +1,46 @@
+@media (min-width: 32.5em){
+    body {
+        margin-right: 10%;
+        margin-left: 10%;
+      }
+      body header {
+        border-radius: 10px;
+        padding-top: 20px;
+      }
+    html body header h1 {
+        font-size: 60px;
+    }
+    #cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .card img{
+      height: 350px;
+      display: block;
+      margin-top: 20px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .card h2 {
+      margin-top: 0px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .card p{
+      height: 300px;
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    body footer {
+        border-radius: 10px;
+      }
+}
