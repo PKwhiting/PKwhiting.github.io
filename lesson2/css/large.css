@@ -1,0 +1,8 @@
+@media (min-width: 60em){
+    #cards {
+      grid-template-columns: auto auto auto;
+    }
+    .card p{
+      height: 350px;
+    }
+}
