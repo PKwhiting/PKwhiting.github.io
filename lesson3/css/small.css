@@ -99,6 +99,37 @@ body main .table table tr td {
 body main .table table tr .tableData {
   display: none;
 }
+body main .table table .navSample {
+  font-size: 1.25em;
+  color: #30323D;
+  background-color: #F4D06F;
+}
+body main .table table .footerSample {
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #30323D;
+}
+body main .table table .heading1Sample {
+  font-size: 2.25em;
+  color: #FFFFFF;
+  background-color: #30323D;
+  font-family: 'Archivo Black', sans-serif;
+}
+body main .table table .heading2Sample {
+  font-size: 2.2em;
+  color: black;
+  background-color: #FFF8F0;
+}
+body main .table table .heading3Sample {
+  font-size: 1.75em;
+  color: black;
+  background-color: #FFF8F0;
+}
+body main .table table .paraSample {
+  font-size: 1em;
+  color: black;
+  background-color: #FFF8F0;
+}
 body main .colorCards {
   margin-right: auto;
   margin-left: auto;
