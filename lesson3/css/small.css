@@ -90,13 +90,11 @@ body main .table table {
   margin-right: auto;
   padding-bottom: 3em;
   font-family: 'Cabin', sans-serif;
+  border-spacing: 0px 0px;
 }
 body main .table table tr td {
   border: 1px solid black;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding: 0.5rem;
 }
 body main .table table tr .tableData {
   display: none;
