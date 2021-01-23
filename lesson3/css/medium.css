@@ -1,0 +1,24 @@
+@media (min-width: 34.5em){
+    body {
+        box-shadow: 0 2px 15px gray;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+    }
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+    .card {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .cards {
+        margin: .25rem;
+    }
+    html body main .table table tr .tableData {
+        display:table-cell;
+    }
+    html body main .colorCards {
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cabin:wght@500&display=swap');
+@header-font:  'Archivo Black', sans-serif;
+@text-font: 'Cabin', sans-serif;
+@color1: #FF8811;
+@color2: #F4D06F;
+@color3: #FFFFFF;
+@color4: #9DD9D2;
+@color5: #30323D;
+@color6: #FFF8F0;
+@large-font-size: 2.25em;
+@medium-font-size: 1.75em;
+@small-font-size: 1em;
+body {
+    margin: 0;
+    header{
+        font-family: @header-font;
+        background-color: @color5;
+        text-align: center;
+        color: @color3;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        h1 {
+            margin: 0;
+        }
+    }
+    
+    nav {
+        background-color: @color2;
+        text-align: center;
+        ul {
+            list-style-type: none;
+	        margin: 0;
+	        padding: 0;
+            overflow: hidden;
+            li {
+                a {
+                    display: block;
+	                color: @color5;
+	                text-align: center;
+	                padding: 0.75rem;
+	                text-decoration: none;
+                    font-size: 1.25em;
+                    font-family: @text-font;
+                }
+            }
+        }
+    }
+    nav a:hover {
+        background-color: @color3;
+        color: @color5;
+    }
+    main {
+        background-color: @color6;
+        padding-right: .5rem;
+        padding-left: .5rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        h2 {
+            border-bottom: 2px solid black;
+            font-family: @text-font;
+            font-size: @large-font-size;
+            margin-top: 0;
+            padding-top: 30px;
+            
+        }
+        h3 {
+            font-family: @text-font;
+            font-size: @medium-font-size;
+            padding-left: 1rem;
+        }
+        p {
+            font-family: @text-font;
+            font-size: @small-font-size;
+            padding-left: 2rem;
+            padding-bottom: 2rem;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        img {
+            width: 80%;
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+        .table {
+            align-content: center;
+            table { 
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 3em;
+                font-family: @text-font;
+                tr {
+                    
+                    td {
+                        border: 1px solid black;
+                        padding-right: .5em;
+                        padding-left: .5em;
+                        padding-top: .5em;
+                        padding-bottom: .5em;
+                    
+                    }
+                    .tableData {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .colorCards {
+            margin-right: auto;
+            margin-left: auto;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            height: 20rem;
+            padding-bottom: 3em;
+            font-family: @text-font;
+            .colorCard1 {
+                background-color: #FF8811;
+                border: 1px solid black;
+                margin: .5rem;
+            }
+            .colorCard2 {
+                background-color: #F4D06F;
+                border: 1px solid black;
+                margin: .5rem;
+            }
+            .colorCard3 {
+                background-color: #9DD9D2;
+                border: 1px solid black;
+                margin: .5rem;
+            }
+            .colorCard4 {
+                background-color: #30323D;
+                border: 1px solid black;
+                margin: .5rem;
+                color: white;
+            }
+            .colorCard5 {
+                background-color: #FFF8F0;
+                border: 1px solid black;
+                margin: .5rem;
+            }
+
+        }
+        
+    }
+    footer {
+        background-color: @color5;
+        font-family: @text-font;
+        color: @color3;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        a {
+            color: @color3;
+        }
+    }
+}
