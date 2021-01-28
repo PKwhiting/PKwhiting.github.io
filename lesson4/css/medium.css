@@ -56,7 +56,10 @@
     }
     .forecastimages {
         background-color: #9DD9D2;
-        border: solid 1px black;
+    }
+    .article {
+        background-color: #9DD9D2;
+        padding: 2rem;
     }
     
     footer {
