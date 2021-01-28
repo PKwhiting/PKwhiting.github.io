@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivoblack/v10/HTxqL289NzCGg4MzN6KJ7eW6OYs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v17/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkW-EL7E.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF8F0;
+}
+header {
+  background-color: #30323D;
+  display: flex;
+  align-items: center;
+}
+header .headertext {
+  margin-top: 0;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+header .headertext h1 {
+  color: #FFFFFF;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1em;
+  margin: 0;
+}
+header .headertext p {
+  font-family: 'Cabin', sans-serif;
+  font-size: 0.75em;
+  color: white;
+  margin: 0;
+}
+header img {
+  filter: invert(1);
+  width: 3rem;
+}
+header .hamburger {
+  font-size: 1.75em;
+  color: #FFFFFF;
+  position: absolute;
+  right: 1rem;
+  top: 0.55rem;
+}
+nav .navigation {
+  display: none;
+}
+nav .responsive {
+  display: block;
+  list-style-type: none;
+  background-color: #30323D;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0;
+  text-align: center;
+}
+nav .responsive li {
+  padding: 0.4rem;
+}
+nav .responsive li a {
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1em;
+  color: #FFFFFF;
+}
+nav .responsive li:active {
+  background-color: #FFFFFF;
+}
+nav .responsive li:active a {
+  color: #30323D;
+}
+nav .responsive li:hover {
+  background-color: #FFFFFF;
+}
+nav .responsive li:hover a {
+  color: #30323D;
+}
+main {
+  font-family: 'Cabin', sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+main .heroimage img {
+  width: 100%;
+}
+main .fivedayforecast {
+  margin-bottom: 3rem;
+}
+main .fivedayforecast .forecastimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .fivedayforecast .forecastimages img {
+  width: 8rem;
+  padding: 0.25rem;
+}
+main .article {
+  margin-bottom: 3rem;
+}
+main .article img {
+  width: 100%;
+}
+footer {
+  background-color: #30323D;
+  color: #FFFFFF;
+}
+footer .contactinfo {
+  font-family: 'Cabin', sans-serif;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer .location {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+footer .location img {
+  width: 100%;
+}
+footer .copyright {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1em;
+}
+footer .copyright a {
+  color: #FFFFFF;
+}

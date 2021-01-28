@@ -1,0 +1,12 @@
+@media (min-width: 60em){
+    body nav .navigation li a {
+        font-size: 1.25em;
+    }
+    body main .article {
+        display: flex;
+    }
+    body main .article img {
+        width: 30%;
+        float: right;
+    }
+}
