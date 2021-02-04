@@ -1,7 +1,7 @@
 @media (min-width: 39.1em){
     main {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
       }
     header {
         padding-left: 20%;
@@ -46,10 +46,17 @@
     body nav .navigation li:hover a {
         color: #F4D06F;
     }
+    body nav .navigation .active {
+        background-color: #30323D;
+    }
+    body nav .navigation .active a {
+        background-color: #30323D;
+        color: #F4D06F
+    }
     .weathersummary {
         border: solid 1px black;
         position: absolute;
-        top: 21em;
+        top: 19em;
         left: 22.5%;
         width: 10em;
         background-color: #FFF8F0;
@@ -69,9 +76,15 @@
         width: 8rem;
         padding: .25rem;
     }
+    body main .fivedayforecast .forecastimages .forecastcard {
+        text-align: center;
+    }
     .article {
         background-color: #9DD9D2;
         padding: 2rem;
+    }
+    .article p {
+        padding-right: 1rem;
     }
     
     footer {

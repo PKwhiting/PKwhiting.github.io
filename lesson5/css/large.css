@@ -1,4 +1,8 @@
 @media (min-width: 63em){
+    html main {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
     body nav .navigation li a {
         font-size: 1.25em;
     }

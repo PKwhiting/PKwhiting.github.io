@@ -15,7 +15,15 @@ body {
     padding: 0;
     background-color: @color6;
 }
-
+#announcement {
+    background-color: @color1;
+    color: black;
+    font-family: @header-font;
+    font-size: @small-font-size;
+    padding: 0 10% 0 10%;
+    text-align: center;
+    display: block;
+}
 header {
     background-color: @color5;
     display: flex;
@@ -47,9 +55,9 @@ header {
     .hamburger{
         font-size: @medium-font-size;
         color:@color3;
-        position: absolute;
-        right: 1rem;
-        top: .55rem;
+        position: relative;
+        right: -10rem;
+        top: 0;
     }
 }
 nav {

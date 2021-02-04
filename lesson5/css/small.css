@@ -18,6 +18,15 @@ body {
   padding: 0;
   background-color: #FFF8F0;
 }
+#announcement {
+  background-color: #FF8811;
+  color: black;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1em;
+  padding: 0 10% 0 10%;
+  text-align: center;
+  display: block;
+}
 header {
   background-color: #30323D;
   display: flex;
@@ -50,9 +59,9 @@ header img {
 header .hamburger {
   font-size: 1.75em;
   color: #FFFFFF;
-  position: absolute;
-  right: 1rem;
-  top: 0.55rem;
+  position: relative;
+  right: -10rem;
+  top: 0;
 }
 nav .navigation {
   display: none;
