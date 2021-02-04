@@ -127,6 +127,9 @@ footer .contactinfo {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+footer .contactinfo .socialicon {
+  width: 3rem;
+}
 footer .location {
   padding-right: 10%;
   padding-left: 10%;
