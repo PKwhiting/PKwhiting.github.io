@@ -1,0 +1,19 @@
+@media (min-width: 63em){
+    html main {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    body nav .navigation li a {
+        font-size: 1.25em;
+    }
+    body nav .navigation {
+        padding: 0 20% 0 20%;
+    }
+    body main .article {
+        display: flex;
+    }
+    body main .article img {
+        width: 30%;
+        float: right;
+    }
+}

@@ -1,0 +1,104 @@
+@media (min-width: 43.5em){
+    main {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+    header {
+        padding-left: 20%;
+    }
+    header .headertext h1 {
+        font-size: 2.25em;
+    }
+    .hamburger {
+        display: none;
+    }
+    header img {
+        filter: invert(1);
+        width: 8rem;
+      }
+    .responsive {
+        display: none;
+    }
+    body nav .navigation {
+        background-color: #F4D06F;
+        margin: 0;
+        list-style-type: none;
+        flex-wrap: wrap;
+        display: flex;
+        text-align: center;
+        
+        justify-content: center;
+    }
+    body nav .navigation li {
+        padding: 1rem .5rem 1rem .5rem;
+        flex: 1 1 auto;
+    }
+    body nav .navigation li a {
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+        color:  #30323D;
+        font-size: 1em;
+    }
+    body nav .navigation li:hover {
+        background-color: #30323D;
+
+    }
+    body nav .navigation li:hover a {
+        color: #F4D06F;
+    }
+    body nav .navigation .active {
+        background-color: #30323D;
+    }
+    body nav .navigation .active a {
+        background-color: #30323D;
+        color: #F4D06F
+    }
+    .weathersummary {
+        border: solid 1px black;
+        position: absolute;
+        top: 19em;
+        left: 22.5%;
+        width: 10em;
+        background-color: #FFF8F0;
+        padding: .25em;
+    }
+    body main .fivedayforecast {
+        display:contents;
+        margin-bottom: 3rem;
+    }
+    body main .fivedayforecast .forecastimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #9DD9D2;
+    }
+    body main .fivedayforecast .forecastimages img {
+        width: 8rem;
+        padding: .25rem;
+    }
+    body main .fivedayforecast .forecastimages .forecastcard {
+        text-align: center;
+    }
+    .article {
+        background-color: #9DD9D2;
+        padding: 2rem;
+    }
+    .article p {
+        padding-right: 1rem;
+    }
+    
+    footer {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+    .footergrid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footergrid .location img {
+        width: 200px;
+        float: right;
+    }
+
+}
