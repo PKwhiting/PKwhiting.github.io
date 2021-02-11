@@ -41,9 +41,9 @@
         <div class="weathersummary">
             <h3>Weather Summary</h3>
             <p><b>Currently:</b> Overcast</p>
-            <p><b>High:</b> 32</p>
-            <p><b>Low:</b> 4</p>
-            <p><b>Wind Speed:</b> 2mph</p>
+            <p><b>High:</b> <span id="temp">32</span>&#176;F</p>
+            <p><b>Wind Chill:</b> <span id="windchill"></span>&#176;F</p>
+            <p><b>Wind Speed:</b> <span id="windspeed">4</span>mph</p>
 
         </div>
         <div class="fivedayforecast">
@@ -99,6 +99,7 @@
         </div> 
     </footer>
     <script src="js/index.js"></script>
+    <script src="js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
