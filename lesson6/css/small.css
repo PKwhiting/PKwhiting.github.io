@@ -56,12 +56,12 @@ header img {
   filter: invert(1);
   width: 3rem;
 }
-header .hamburger {
+header #hamburger {
   font-size: 1.75em;
   color: #FFFFFF;
-  position: relative;
-  right: -10rem;
-  top: 0;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
 }
 nav .navigation {
   display: none;

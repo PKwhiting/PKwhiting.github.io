@@ -9,7 +9,7 @@
     header .headertext h1 {
         font-size: 2.25em;
     }
-    .hamburger {
+    #hamburger {
         display: none;
     }
     header img {
