@@ -58,10 +58,9 @@ header img {
 }
 header #hamburger {
   font-size: 1.75em;
-  color: #FFFFFF;
-  position: absolute;
-  right: 1rem;
-  top: 0.5rem;
+  color: #9DD9D2;
+  margin-left: auto;
+  margin-right: 0.5rem;
 }
 nav .navigation {
   display: none;
@@ -115,6 +114,25 @@ main .article {
 }
 main .article img {
   width: 100%;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1rem;
+  text-align: center;
+  margin-right: -3rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.gallerycard {
+  margin-right: 0;
+  margin-left: 0;
+}
+.gallerycard img {
+  width: 100%;
+}
+.gallerytext {
+  display: none;
 }
 footer {
   background-color: #30323D;

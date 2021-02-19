@@ -28,6 +28,7 @@ header {
     background-color: @color5;
     display: flex;
     align-items: center;
+    
     .headertext {
         margin-top: 0;
         float: right;
@@ -54,10 +55,10 @@ header {
     }
     #hamburger{
         font-size: @medium-font-size;
-        color:@color3;
-        position: absolute;
-        right: 1rem;
-        top: .5rem;
+        color:@color4;
+        margin-left: auto;
+        margin-right: .5rem;
+                
     }
 }
 nav {
@@ -121,6 +122,27 @@ main {
         }
     }
 }
+.gallery {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+    text-align: center;
+    margin-right: -3rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+.gallerycard {
+   margin-right: 0;
+   margin-left: 0;
+
+    img {
+        width: 100%;
+    }
+}
+.gallerytext {
+    display: none;
+}
+
 
 footer {
     background-color: @color5;

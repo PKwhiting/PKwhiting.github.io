@@ -16,4 +16,23 @@
         width: 30%;
         float: right;
     }
+    main .gallery .gallerycard:hover{
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+    body main .gallery {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 1rem;
+        text-align: center;
+    
+    }
+    main .gallery .gallerycard {
+        width: 100%;
+    }
+    .gallercard img {
+        width: 300px;
+    }
+    .gallerycard .gallerytext {
+        display: block;
+    }
 }

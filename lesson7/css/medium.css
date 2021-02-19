@@ -86,6 +86,13 @@
     .article p {
         padding-right: 1rem;
     }
+
+    main .gallery {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1rem;
+        text-align: center;
+    }
     
     footer {
         padding-right: 20%;
