@@ -63,7 +63,7 @@ table {
   font-family: 'Ubuntu', sans-serif;
 }
 caption {
-  background-color: #90a4ae;
+  background-color: #7fb9c2;
   font-size: x-large;
   font-weight: 800;
   padding-top: 0.5rem;
@@ -72,14 +72,14 @@ caption {
 th {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  background-color: #37474f;
+  background-color: #628ca6;
   color: white;
 }
 tr:nth-child(even) {
-  background-color: #cfd8dc;
+  background-color: #e7f0ed;
 }
 tr:nth-child(odd) {
-  background-color: #b0bec5;
+  background-color: #e7ffed;
 }
 td {
   text-align: center;
@@ -87,9 +87,9 @@ td {
   border: 0.5px solid gray;
 }
 .active {
-  background-color: #37474f;
+  background-color: #628ca6;
   color: white;
 }
 .end {
-  background-color: #37474f;
+  background-color: #7fb9c2;
 }
