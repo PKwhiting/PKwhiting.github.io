@@ -58,7 +58,7 @@ header img {
 }
 header #hamburger {
   font-size: 1.75em;
-  color: #9DD9D2;
+  color: #FFFFFF;
   margin-left: auto;
   margin-right: 0.5rem;
 }
@@ -133,6 +133,46 @@ main .article img {
 }
 .gallerytext {
   display: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  clear: both;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+form .formsection {
+  margin-bottom: 1rem;
+  background-color: #30323D;
+  margin-bottom: 2rem;
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+}
+form input:not(.radio) {
+  width: 95%;
+  clear: both;
+  margin-bottom: 1rem;
+  background-color: #565554;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+form textarea {
+  resize: none;
+  width: 90%;
+  margin-bottom: 0.5rem;
+  width: 98%;
+  height: 100px;
+  box-sizing: border-box;
+}
+.radio label input {
+  width: 20px;
+}
+#submit {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
 }
 footer {
   background-color: #30323D;

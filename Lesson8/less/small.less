@@ -55,7 +55,7 @@ header {
     }
     #hamburger{
         font-size: @medium-font-size;
-        color:@color4;
+        color:@color3;
         margin-left: auto;
         margin-right: .5rem;
                 
@@ -143,7 +143,57 @@ main {
     display: none;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    .formsection {
+        margin-bottom: 1rem;
+        background-color: @color5;
+        margin-bottom: 2rem;
+        color: @color3;
+        padding-left: .5rem;
+    }
 
+    input:not(.radio) {
+        width: 95%;
+        clear: both;
+        margin-bottom: 1rem;
+        background-color: #565554;
+        color: white;
+        padding-top:.5rem;
+        padding-bottom: .5rem;
+        
+    }
+    
+    
+    textarea {
+        resize: none;
+        width: 90%;
+        height: 100px;
+        margin-bottom: .5rem;
+        width: 98%;
+        height: 100px; 
+        box-sizing: border-box;
+    }
+}
+.radio label {
+
+    input{
+        width: 20px;
+        
+    }
+}
+#submit {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    width: 100%;
+}
 footer {
     background-color: @color5;
     color: @color3;

@@ -2,7 +2,7 @@
     main {
         padding-left: 10%;
         padding-right: 10%;
-      }
+    }
     header {
         padding-left: 20%;
     }
@@ -92,6 +92,9 @@
         grid-template-columns: auto auto;
         grid-gap: 1rem;
         text-align: center;
+    }
+    main form {
+        width: 475px;
     }
     
     footer {
