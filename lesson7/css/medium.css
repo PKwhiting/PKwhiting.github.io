@@ -88,10 +88,7 @@
     }
 
     main .gallery {
-        display: grid;
         grid-template-columns: auto auto;
-        grid-gap: 1rem;
-        text-align: center;
     }
     
     footer {
