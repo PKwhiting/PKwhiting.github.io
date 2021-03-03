@@ -37,7 +37,7 @@
             <div class="formsection">
                 <h3>Contact Information</h3>
                 <label for="fullname">Full name:
-                <input type="text" name="name" id="fname" minlength="5" pattern="[A-Za-z0-9_]{1,15}" required></label>
+                <input type="text" name="name" id="fullname" minlength="5" pattern="[A-Za-z0-9_]{1,15}" required></label>
                 <label for="email">Email:
                 <input type="email" name="email" id="email" placeholder="example@email.com" required></label>
                 <label for="phonenumber">Phone Number:
@@ -48,7 +48,7 @@
                 <label for="zipcode">Zip Code:
                 <input type="number" name="zipcode" id="zipcode" required></label>
                 <label for="stormdate">Storm Date:
-                <input type="date" name="date" required></label>
+                <input type="date" id="stormdate" name="stormdate" required></label>
                 <label for="stormtype">Storm Type:
                 <input list="stormtypes" id="stormtype" name="stormtype">
                 <datalist id="stormtypes">
@@ -59,10 +59,10 @@
                     <option value="Tornado">
                 </datalist></label>
                 <label for="stormsev">Storm Severity:
-                <input type="range" name="stormseverity" min="1" max="10" required></label>
+                <input type="range" id="stormsev" name="stormseverity" min="1" max="10"></label>
                 <label for="stormreg">Storm Region:
                 <select id="stormreg" required>
-                    <option value="select" disabled selected>Select Region...</option>
+                    <option disabled label="Select Region">
                     <option value="preston">Preston</option>
                     <option value="soda springs">Soda Springs</option>
                     <option value="fish haven">Fish Haven</option>
@@ -71,7 +71,7 @@
                     <p>Are you in Danger?</p>
                     <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label><br>
                     <label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label><br>
-                    <label for="no"><input type="radio" name="danger" id="no" value="no"> No</lasbel>   
+                    <label for="no"><input type="radio" name="danger" id="no" value="no"> No</label>   
                 </div>
                 <label for="comments">Additional Comments:<br>
                 <textarea id="comments" name="comments"></textarea></label>
