@@ -10,7 +10,6 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 var y = document.getElementsByClassName('announcement');
 var day = new Date();
 var daynum = day.getDay();
-console.log(daynum);
 if (daynum == 5 ){
     document.getElementById('announcement').style.display = 'block';
     document.getElementById('hamburger').style.top = '2.8rem';
