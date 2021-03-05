@@ -61,6 +61,7 @@
 table {
   box-shadow: 5px 5px 15px 5px #000000;
   font-family: 'Ubuntu', sans-serif;
+  border-spacing: 0px;
 }
 caption {
   background-color: #7fb9c2;

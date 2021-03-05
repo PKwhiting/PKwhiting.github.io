@@ -103,20 +103,49 @@ nav {
 }
 main {
     font-family: @text-font;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
     .heroimage {
         img {
             width: 100%;
         }
         
     }
+
+    .towninformation {
+        section {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            display: grid;
+            grid-template-columns: auto;
+            background-color: @color2;
+            img {
+                width: 90%;
+                margin: auto;
+            }
+            div {
+                color: @color5;
+                text-align: center;
+                h2 {
+                    font-size:x-large;
+                    margin-bottom: .1rem;
+                }
+                h3 {
+                    color: black;
+                    margin-top: .1rem;
+                    font-size: x-small;
+                }
+            }
+        }
+
+    }
+
+
     .fivedayforecast {
         display: none;
 
     }
     .article {
-        margin-bottom: 3rem;
         img {
             width: 100%;
         }

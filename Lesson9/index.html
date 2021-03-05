@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Displays and informs users of current and upcoming weather in Preston Idaho. Also shows current and upcoming events.">
+    <meta name="description" content="Home page for Weather Genie. Displays basic information on covered towns and info about the site.">
     <link rel="shortcut icon" href="../images/favicon.ico">
-    <title>Preston Idaho Weather Genie</title>
+    <title>Weather Genie Home</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -23,8 +23,8 @@
     </header>
     <nav>
 	    <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston-6.html">Preston</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
             <li><a href="preston-6.html">Soda Springs</a></li>
             <li><a href="preston-6.html">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
@@ -32,46 +32,8 @@
 	    </ul>
     </nav>
     <main>
-        <h2>Preston Idaho</h2>
-        <picture class="heroimage">
-            <source media="(max-width: 400px)" srcset="images/hero-img-small.jpeg">
-            <source media="(max-width: 750px)" srcset="images/hero-img-medium.jpeg">
-            <img src="images/hero-img-large.jpg" alt="placeholder image">
-        </picture>
-        <div class="weathersummary">
-            <h3>Weather Summary</h3>
-            <p><b>Currently:</b> Overcast</p>
-            <p><b>High:</b> <span id="temp">32</span>&#176;F</p>
-            <p><b>Wind Chill:</b> <span id="windchill"></span>&#176;F</p>
-            <p><b>Wind Speed:</b> <span id="windspeed">4</span>mph</p>
-
-        </div>
-        <div class="fivedayforecast">
-            <h3>5 Day Forecast</h3>
-            <div class="forecastimages">
-                <div class="forecastcard">
-                    <h4>Monday</h4>
-                    <img src="images/weather-icon-1.png" alt="Sunny weather icon">
-                </div>
-                <div class="forecastcard">
-                    <h4>Tuesday</h4>
-                    <img src="images/weather-icon-1.png" alt="Sunny weather icon">
-                </div>
-                <div class="forecastcard">
-                    <h4>Wednesday</h4>
-                    <img src="images/weather-icon-1.png" alt="Sunny weather icon">
-                </div>
-                <div class="forecastcard">
-                    <h4>Thursday</h4>
-                    <img src="images/weather-icon-1.png" alt="Sunny weather icon">
-                </div>
-                <div class="forecastcard">
-                    <h4>Friday</h4>
-                    <img src="images/weather-icon-1.png" alt="Sunny weather icon">
-                </div>
-                
-            </div>
-        </div>
+        <h1>Home</h1>
+        <div class="towninformation"></div>
         <div class="information">
             <h3>Article</h3>
             <div class="article">
@@ -99,7 +61,7 @@
         </div> 
     </footer>
     <script src="js/index.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/towndata.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
     WebFont.load({

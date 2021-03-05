@@ -79,9 +79,10 @@
     body main .fivedayforecast .forecastimages .forecastcard {
         text-align: center;
     }
-    .article {
+    .information {
         background-color: #9DD9D2;
         padding: 2rem;
+        margin-bottom: 2rem;
     }
     .article p {
         padding-right: 1rem;

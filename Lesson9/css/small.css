@@ -100,17 +100,38 @@ nav .responsive li:hover a {
 }
 main {
   font-family: 'Cabin', sans-serif;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 main .heroimage img {
   width: 100%;
 }
+main .towninformation section {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #F4D06F;
+}
+main .towninformation section img {
+  width: 90%;
+  margin: auto;
+}
+main .towninformation section div {
+  color: #30323D;
+  text-align: center;
+}
+main .towninformation section div h2 {
+  font-size: x-large;
+  margin-bottom: 0.1rem;
+}
+main .towninformation section div h3 {
+  color: black;
+  margin-top: 0.1rem;
+  font-size: x-small;
+}
 main .fivedayforecast {
   display: none;
-}
-main .article {
-  margin-bottom: 3rem;
 }
 main .article img {
   width: 100%;
