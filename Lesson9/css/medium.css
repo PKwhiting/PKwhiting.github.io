@@ -62,6 +62,36 @@
         background-color: #FFF8F0;
         padding: .25em;
     }
+
+
+    body main .towninformation section{
+        grid-template-columns: 50% 50%;
+    }
+    body main .towninformation section img {
+        width: 100%;
+        margin: 0px;
+    }
+    body main .towninformation section div {
+        width: 100%;
+    }
+    body main .towninformation section:nth-child(2) img{
+        width: 100%;
+        margin: 0px;
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 1;
+        grid-row-end:2;
+    }
+    body main .towninformation section:nth-child(2) div{
+        width: 100%;
+        grid-column-start:2;
+        grid-column-end:3;
+        grid-row-start: 1;
+        grid-row-end:2;
+    }
+
+
+
     body main .fivedayforecast {
         display:contents;
         margin-bottom: 3rem;

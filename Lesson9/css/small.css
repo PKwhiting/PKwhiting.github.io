@@ -136,6 +136,12 @@ main .fivedayforecast {
 main .article img {
   width: 100%;
 }
+.information h3 {
+  margin-bottom: 0.5rem;
+}
+.information h5 {
+  margin: 0;
+}
 .gallery {
   display: grid;
   grid-template-columns: auto;
