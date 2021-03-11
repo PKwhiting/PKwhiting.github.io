@@ -1,0 +1,18 @@
+img {
+    border: 1px solig black;
+    padding: 2px;
+    filter: blur(0em);
+    transition: filter 2s;
+}
+
+img[data-src] {
+    filter: blur(.2s);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body {
+    text-align: center;
+}
