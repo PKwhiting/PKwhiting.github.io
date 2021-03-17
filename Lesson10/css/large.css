@@ -9,13 +9,7 @@
     body nav .navigation {
         padding: 0 20% 0 20%;
     }
-    body main .article {
-        display: flex;
-    }
-    body main .article img {
-        width: 30%;
-        float: right;
-    }
+
 
 
     body main .towninformation{
@@ -68,4 +62,9 @@
     .gallerycard .gallerytext {
         display: block;
     }
+    html body main .article img {
+        max-width: 20%;
+        height: auto;
+        width: auto;
+      }
 }

@@ -54,13 +54,14 @@
         color: #F4D06F
     }
     .weathersummary {
+        color: white;
         border: solid 1px black;
         position: absolute;
         top: 19em;
         left: 22.5%;
         width: 10em;
-        background-color: #FFF8F0;
         padding: .25em;
+        background:  rgb(48, 50, 61, .5) 
     }
 
 
@@ -95,12 +96,13 @@
     body main .fivedayforecast {
         display:contents;
         margin-bottom: 3rem;
+        
     }
     body main .fivedayforecast .forecastimages {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: #9DD9D2;
+        margin-bottom: 1.5rem;
     }
     body main .fivedayforecast .forecastimages img {
         width: 5rem;
@@ -109,7 +111,7 @@
     body main .fivedayforecast .forecastimages .forecastcard {
         text-align: center;
         margin: .5rem;
-        background-color: white;
+        background-color:#F4D06F;
         width: 9rem;
         border-radius: 5%;
         box-shadow: -7px 7px 15px -3px #000000;
@@ -122,12 +124,30 @@
     .article p {
         padding-right: 1rem;
     }
+    body main .article {
+        display: flex;
+    }
+    body main .article img {
+        margin: 0;
+        object-fit:scale-down;
+        width: 30%;
+        float: right;
+    }
 
     main .gallery {
         grid-template-columns: auto auto;
     }
     main form {
         width: 475px;
+    }
+    .localevents {
+        background: #FF8811;
+        padding: 2rem;
+        text-align: center;
+        font-size: larger;
+    }
+    .localevents h3 {
+        margin-top: 0;
     }
     
     footer {

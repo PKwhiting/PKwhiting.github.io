@@ -34,8 +34,8 @@
     <main>
         <h2>Preston Idaho</h2>
         <picture class="heroimage">
-            <source media="(max-width: 400px)" srcset="images/hero-img-small.jpeg">
-            <source media="(max-width: 750px)" srcset="images/hero-img-medium.jpeg">
+            <source media="(max-width: 400px)" srcset="images/hero-img-small.jpg">
+            <source media="(max-width: 750px)" srcset="images/hero-img-medium.jpg">
             <img src="images/hero-img-large.jpg" alt="placeholder image">
         </picture>
         <div class="weathersummary">
@@ -43,8 +43,12 @@
             <p><b>Currently: </b><span id="currently"></span></p>
             <p><b>Current Temp:</b> <span id="temp"></span>&#176;F</p>
             <p><b>Humidity:</b> <span id="humidity"></span>%</p>
-            <p><b>Wind Chill:</b> <span id="windchill"></span>&#176;F</p>
+            <p id="windchilldisplay"><b>Wind Chill:</b> <span id="windchill"></span>&#176;F</p>
             <p><b>Wind Speed:</b> <span id="windspeed"></span>mph</p>
+
+        </div>
+        <div class="localevents">
+            <h3>Upcoming Events</h3>
 
         </div>
         <div class="fivedayforecast">
@@ -101,7 +105,7 @@
         </div> 
     </footer>
     <script src="js/index.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/preston.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
     WebFont.load({

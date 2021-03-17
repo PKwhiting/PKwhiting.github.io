@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Displays and informs users of current and upcoming weather in Preston Idaho. Also shows current and upcoming events.">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <title>Preston Idaho Weather Genie</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div id="announcement">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/logo.png" alt="Weather Genie Logo Cloud">
+        <div class="headertext">
+            <h1>Weather Genie</h1>
+            <p>weather and news for everyone</p>
+        </div>
+        <a id="hamburger"> &#9776; </a>
+    </header>
+    <nav>
+	    <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+	    </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="gallery">
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img1.jpg" alt="image of idaho weather">
+                <p class="gallerytext">Thunder and Lightning</p>
+            </div>
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img2.jpg" alt="image of idaho weather">
+                <p class="gallerytext">A summer sunset</p>
+            </div>
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img3.jpg" alt="image of idaho weather">
+                <p class="gallerytext">The Winter Sky</p>
+            </div>
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img4.jpg" alt="image of idaho weather">
+                <p class="gallerytext">City streets in the Winter</p>
+            </div>
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img5.jpg" alt="image of idaho weather">
+                <p class="gallerytext">Snake River Fishing</p>
+            </div>
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img6.jpg" alt="image of idaho weather">
+                <p class="gallerytext">Quiet Mountain Winter Road</p>
+            </div>
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img7.jpg" alt="image of idaho weather">
+                <p class="gallerytext">A view atop a Mountain</p>
+            </div>
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img8.jpg" alt="image of idaho weather">
+                <p class="gallerytext">Snake River Sunset</p>
+            </div>
+            <div class="gallerycard">
+                <img src="images/plain.png" data-src="images/img9.jpg" alt="image of idaho weather">
+                <p class="gallerytext">Duststorm</p>
+            </div>
+
+        </div>
+    </main>
+    <script src="js/imgloading.js" defer></script>
+    <footer>
+        <div class="footergrid">
+            <div class="contactinfo">
+                <h3>Contact Info</h3>
+                <p>&#128231; ####################</p>
+                <p>&#9742; ############</p>
+                <a href="https://twitter.com/?lang=en"><img class="socialicon" src="images/twitter-icon.webp" alt="twitter icon"></a>
+                <a href="https://www.facebook.com/"><img class="socialicon" src="images/fb-icon.webp" alt="facebook icon"></a>
+                <a href="https://www.pinterest.com/"><img class="socialicon" src="images/pin-icon.webp" alt="pinterest icon"></a>
+            </div>
+            <div class="location">
+                <img src="images/map-img.JPG" alt="map of southeast idaho">
+            </div>
+        </div>
+        <div class="copyright">
+            &#169; <span id="copyright"></span> | Patten Whiting | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning | Last Updated: <span id="lastModified"></span></a>
+        </div> 
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+        families: ['Droid Sans', 'Droid Serif']
+        }
+    });
+    </script>
+</body>
+</html>
