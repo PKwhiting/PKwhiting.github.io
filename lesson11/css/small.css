@@ -129,7 +129,7 @@ main .towninformation section div h2 {
 main .towninformation section div h3 {
   color: black;
   margin-top: 0.1rem;
-  font-size: x-small;
+  font-size: medium;
 }
 main .fivedayforecast {
   display: none;

@@ -17,6 +17,7 @@ fetch(requestURL)
             let img = document.createElement('img');
             let div1 = document.createElement('div');
             div1.setAttribute('class', 'town');
+            img.setAttribute('alt', towns[i].name)
 
             h2.textContent = towns[i].name;
             h3.textContent = towns[i].motto;
