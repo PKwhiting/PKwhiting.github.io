@@ -1,0 +1,27 @@
+@media (min-width: 46.5em){
+    body header nav .nav{
+        display: inline;
+    }
+    header nav {
+        margin: 3rem .25rem 2rem 0;
+    }
+    header #hamburger{
+        display: none;
+    }
+    header nav .nav li {
+        margin: 0 .5rem 0 .5rem;
+        font-size: 20px;
+    }
+    header nav .responsive {
+        display: none;
+        position: revert;
+    }
+    main .maingrid{
+        grid-template-columns: 47% 47%;
+        grid-gap: 6%;
+    }
+    main {
+        padding: 2rem 10% 2rem 10%;
+    }
+    
+}

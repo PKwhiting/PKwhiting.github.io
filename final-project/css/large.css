@@ -1,0 +1,15 @@
+@media (min-width: 63em){
+    header nav .nav li {
+        margin: 0 1rem 0 1rem;
+        font-size: 25px;
+    }
+    main {
+        padding: 2rem 20% 2rem 20%;
+    }
+    .footergrid{
+        padding: 2rem 20% 2rem 20%;
+        display: grid;
+        grid-template-columns: 50% 50% ;
+    }
+
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="San Leanna Chamber of Commerce Home Page for promoting local bussiness growth and networks">
+    <title>San Leanna Chamber of Commerce Home page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="San Leanna Chamber of Commerce Logo">
+        <a id="hamburger"> &#9776; </a>
+        <nav>
+            <ul class="nav">
+                <li><a><b>Contact</b></a></li>
+                <li><a><b>Directory</b></a></li>
+                <li><a><b>Join</b></a></li>
+                <li><a><b>San Leanna</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <h1>San Leanna Chamber of Commerce</h1>
+            <a href="index.html" class="button">Join Today!</a>
+        </div>
+        <div class="maingrid">
+            <div class="griditem weather">
+                <h2>Weather</h2>
+                <div class="weathergrid">  
+                    <div class="current">
+                        <h3>Current Weather</h3>
+                        <ul>
+                            <li>Temperature: <span id="temp"></span> &#176;F</li>
+                            <li>Currently: <span id="currently"></span></li>
+                            <li>Humidity: <span id="hum"></span>%</li>
+                        </ul>   
+                    </div>
+                    <div class="forecast">
+                        <h3>3-Day Forecast</h3>
+                        <ul>
+                            <li id="day1"></li>
+                            <li id="day2"></li>
+                            <li id="day3"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="griditem">
+                <div class="fling-minislide">
+                    <img src="images/tximg1.jpg" alt="">
+                    <img src="images/tximg2.jpg" alt="">
+                    <img src="images/tximg3.jpg" alt="">
+                    <img src="images/tximg4.png" alt="">
+                </div>
+            </div>
+            <div class="griditem slider">
+                <h2>Local Companies</h2>
+                <img class="mySlides" src="images/ad1.png" alt="Steding and Sons Mercantile advertisement">
+                <img class="mySlides" src="images/ad2.png" alt="Austin south by southwest advertisement">
+                <img class="mySlides" src="images/ad3.jpg" alt="">
+                <button class="buttonleft" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="buttonright" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+            <div class="griditem overview">
+                <h2>The Chamber</h2>
+                <p>We help and work with business' in the local Manchac area to help them create more jobs
+                    and to aide economic development. More jobs means more ways for people to provide for their
+                    families. This leads to economic prosperity for the whole Manchac area.
+                </p>
+            </div>
+        </div>
+        <div class="banner">
+            <h2>Upcoming Events</h2>
+            <h3>Dogs in the Backyard! Doc’s Backyard!</h3>
+            <span>Saturday April 7</span>
+            <p>Let's get to work on some specifics to the Canine Good Citizen program. We have been working on loose lead at Lowe's. With our small group, "sitting politely for petting" is next. Practice your sit-stay this week. This sounds much easier than it is. </p>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footergrid">
+            <div class="contactinfo">
+                <h3>Contact Info</h3>
+                <p>&#128231; info@weathergenie.com</p>
+                <p>&#9742; 208.233.9080</p>
+            </div>
+            <div class="medialinks">
+                <a href="https://twitter.com/?lang=en"><img class="socialicon" src="images/twitter-icon.webp" alt="twitter icon"></a>
+                <a href="https://www.facebook.com/"><img class="socialicon" src="images/fb-icon.webp" alt="facebook icon"></a>
+                <a href="https://www.pinterest.com/"><img class="socialicon" src="images/pin-icon.webp" alt="pinterest icon"></a>
+            </div>
+        </div>
+        <div class="copyright"><p> 2021 | Patten Whiting | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p></div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
