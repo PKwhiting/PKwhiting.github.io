@@ -71,3 +71,27 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+var x = document.lastModified;
+var year = new Date().getFullYear();
+document.getElementById('lastModified').innerHTML = x;
+document.getElementById('copyright').innerHTML = year;
+
+let a = b =5;
+console.log(b);
+
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: 30.1405, lng: -97.8330 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}

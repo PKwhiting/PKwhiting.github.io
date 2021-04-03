@@ -14,7 +14,7 @@
     }
     header nav .responsive {
         display: none;
-        position: revert;
+        position:unset;
     }
     main .maingrid{
         grid-template-columns: 47% 47%;
@@ -23,5 +23,8 @@
     main {
         padding: 2rem 10% 2rem 10%;
     }
-    
+    .copyright{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
