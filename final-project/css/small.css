@@ -96,6 +96,7 @@ h1 {
   text-align: center;
   font-family: 'Patua One', cursive;
   padding: 1rem 0 1rem 0;
+  margin-bottom: 2rem;
 }
 .banner h1 {
   margin: 0 0 1rem 0;
@@ -106,25 +107,35 @@ h1 {
 .banner .bannerimages {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .banner .bannerimages .bannerimage img {
   max-width: 100px;
 }
-.banner table {
+.table {
+  width: 100%;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.table table {
   gap: 0;
   border-collapse: collapse;
   margin-right: auto;
   margin-left: auto;
 }
-.banner table tr th {
+.table table tr th {
   border-style: solid;
   border-width: thin;
 }
-.banner table tr td {
+.table table tr td {
   border-style: solid;
   border-width: thin;
+}
+.table table tr:nth-child(1) th {
+  transform: rotate(-90deg);
+  padding: 2rem 0 2rem 0;
 }
 .button {
   background-color: #F4F1BB;
@@ -155,6 +166,7 @@ h1 {
 }
 .weathergrid {
   display: grid;
+  width: 90%;
   grid-template-columns: 50% 50%;
   font-family: 'Yantramanav', sans-serif;
 }
@@ -167,9 +179,10 @@ ul {
   position: relative;
   text-align: center;
   font-family: 'Yantramanav', sans-serif;
+  overflow: hidden;
 }
 .slider img {
-  height: 70%;
+  height: 65%;
   object-fit: fill;
   margin: auto;
 }
@@ -184,20 +197,26 @@ ul {
   bottom: 3rem;
 }
 .overview {
-  text-align: center;
   font-family: 'Yantramanav', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   background-color: #9BC1BC;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  text-align: center;
 }
 .overview h2 {
   margin: 0.25rem 0 0.25rem 0;
 }
 .overview p {
   margin-top: 0;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
 }
 footer {
   overflow: hidden;
@@ -278,6 +297,7 @@ form textarea {
 #map {
   margin: 5%;
   text-align: center;
+  overflow: hidden;
 }
 .contactinfo {
   font-family: 'Yantramanav', sans-serif;

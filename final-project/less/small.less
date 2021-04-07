@@ -98,6 +98,7 @@ h1 {
     text-align: center;
     font-family: @header-font-family;
     padding: 1rem 0 1rem 0;
+    margin-bottom: 2rem;
     h1{
         margin:0 0 1rem 0;
     }
@@ -107,7 +108,7 @@ h1 {
     .bannerimages{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         .bannerimage{
             img{
@@ -115,12 +116,21 @@ h1 {
             }
         }
     }
+    
+}
+.table {
+    width: 100%;
+    font-family: @text-font-family;
+    font-size: @small-text;
+    text-align: center;
     table {
         gap:0;
         border-collapse:collapse;
         margin-right:auto;
         margin-left:auto;
+        
         tr {
+            
             th{
                 border-style: solid;
                 border-width: thin;
@@ -128,6 +138,12 @@ h1 {
             td{
                 border-style: solid;
                 border-width: thin;
+            }
+        }
+        tr:nth-child(1){
+            th{
+                transform: rotate(-90deg);
+                padding: 2rem 0 2rem 0;
             }
         }
         
@@ -142,6 +158,7 @@ h1 {
     font-family: @text-font-family;
     text-decoration: none;
     font-size: @medium-text;
+
 }
 .maingrid{
     display: grid;
@@ -164,6 +181,7 @@ h1 {
 }
 .weathergrid{
     display: grid;
+    width:90%;
     grid-template-columns: 50% 50%;
     font-family: @text-font-family;
 
@@ -178,8 +196,9 @@ ul{
     position: relative;
     text-align: center;
     font-family: @text-font-family;
+    overflow: hidden;
     img {
-        height: 70%;
+        height: 65%;
         object-fit: fill;
         margin: auto
     }
@@ -197,17 +216,24 @@ ul{
 .overview {
     text-align: center;
     font-family: @text-font-family;
-    font-size: @small-text;
+    font-size: 18px;
     background-color: @color-3;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    text-align: center;
     h2 {
         margin: .25rem 0 .25rem 0;
     }
     p {
         margin-top: 0;
+        padding-left:.25rem;
+        padding-right:.25rem;
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
     }
 }
 
@@ -277,6 +303,7 @@ form {
 #map {
     margin: 5%;
     text-align: center;
+    overflow: hidden;
 }
 .contactinfo {
     font-family: @text-font-family;
