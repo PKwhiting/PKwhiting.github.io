@@ -95,10 +95,13 @@ h1 {
   box-shadow: -1px 5px 11px 5px rgba(0, 0, 0, 0.38);
   text-align: center;
   font-family: 'Patua One', cursive;
-  padding: 1rem 0 1rem 0;
+  padding: 2rem 0 2rem 0;
   margin-bottom: 2rem;
 }
 .banner h1 {
+  margin: 0 0 1rem 0;
+}
+.banner h2 {
   margin: 0 0 1rem 0;
 }
 .banner p {
@@ -303,4 +306,23 @@ form textarea {
   font-family: 'Yantramanav', sans-serif;
   font-size: 22px;
   text-align: center;
+}
+.slgrid {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 22px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.slgrid .info {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.slgrid .info p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.slgrid img {
+  width: 100%;
 }
