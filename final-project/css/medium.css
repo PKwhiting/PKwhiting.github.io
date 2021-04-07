@@ -16,6 +16,14 @@
         display: none;
         position:unset;
     }
+    header img {
+        max-height: 6rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        float: left;
+        position: unset;
+        top:auto;
+    }
     main .maingrid{
         grid-template-columns: 47% 47%;
         grid-gap: 6%;

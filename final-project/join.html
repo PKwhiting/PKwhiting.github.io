@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="San Leanna Chamber of Commerce Home Page for promoting local bussiness growth and networks">
+    <title>San Leanna Chamber of Commerce Home page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="San Leanna Chamber of Commerce Logo"></a>
+        <a id="hamburger"> &#9776; </a>
+        <nav>
+            <ul class="nav">
+                <li><a href="contact.html"><b>Contact</b></a></li>
+                <li><a><b>Directory</b></a></li>
+                <li><a class="active"><b>Join</b></a></li>
+                <li><a><b>San Leanna</b></a></li>
+                <li><a href="index.html"><b>Home</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Join</h1>
+        <div class="banner">
+            <h2>Benefits of Joining</h2>
+            <p>By joining the San Leanna Chamber of Commerce, you can gain discounts on many of your business needs from other local businesses. You can get discounts on insurances, office supplies, shipping, marketing, accounting software, and payroll services. Chamber members often times offer discounts to other members. Joinging will also give you access to many local resources and a vast local network of business owners.</p>
+
+        </div>
+        
+        <form class="jf">
+            <input type="text" id="fname" placeholder="First Name">
+            <input type="text" id="lname" placeholder="Last Name">
+            <input type="text" id="title" placeholder="Title">
+            <input type="email" id="input-email" placeholder="Email address">
+            <input type="text" id="address" placeholder="Business Address">
+            <input type="url" id="website" placeholder="Business Website">
+            <textarea name="message" id="descrip" placeholder="Business description"></textarea>
+            <br>
+            <select id="memblevel">
+                <optgroup label="Membership Level">
+                <option value="non-profit">Non-Profit - $100</option>
+                <option value="bronze">Bronze - $200</option>
+                <option value="silver">Silver - $400</option>
+                <option value="gold">Gold - $1000</option>
+                </optgroup>
+              </select>
+          <div class="input-submit"><input type="submit" value="Submit" id="input-submit"></div>
+        </form>
+        <div class="banner">
+            <h2>Membership Levels</h2>
+            <table>
+                <colgroup>
+                    <col span="1" style="background-color:#ED6A5A">
+                    <col span="1" style="background-color:gold">
+                    <col span="1" style="background-color:silver">
+                    <col span="1" style="background-color:brown">
+                    <col span="1" style="background-color:greenyellow">
+                    
+                  </colgroup>
+                <tr>
+                    <th></th>
+                    <th>Gold</th>
+                    <th>Silver</th>
+                    <th>Bronze</th>
+                    <th>Non-Profit</th>
+                </tr>
+                <tr>
+                    <th>Monthly Meetings</th>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <th>Business Trainings</th>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <th>Luncheon Tickets</th>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Networking Events</th>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Logo on Chamber Banner</th>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Social Media Shoutouts</th>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Logo on Chamber Email</th>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Recognized Sponsor</th>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Yearly Golf Outing</th>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+            </table>
+
+        </div>
+        
+        
+    </main>
+    <footer>
+        <div class="footergrid">
+            <div class="contactinfo">
+                <h3>Contact Info</h3>
+                <p>&#128231; info@sanleannacoc.com</p>
+                <p>&#9742; 512.854.9130</p>
+            </div>
+            <div class="medialinks">
+                <a href="https://twitter.com/?lang=en"><img class="socialicon" src="images/twitter-icon.webp" alt="twitter icon"></a>
+                <a href="https://www.facebook.com/"><img class="socialicon" src="images/fb-icon.webp" alt="facebook icon"></a>
+                <a href="https://www.pinterest.com/"><img class="socialicon" src="images/pin-icon.webp" alt="pinterest icon"></a>
+            </div>
+        </div>
+        <div class="copyright"><p> &#169; <span id="copyright"></span> | Patten Whiting | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a> | Last Updated: <span id="lastModified"></span>
+            <a href="https://openweathermap.org/"> | openweathermap.org</a></p></div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -25,10 +25,9 @@ header {
 }
 header img {
   display: inline;
-  max-height: 6rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  float: left;
+  max-height: 4rem;
+  position: relative;
+  top: 28px;
 }
 nav {
   margin: 2rem 2rem 2rem 0;
@@ -94,13 +93,15 @@ h1 {
 .banner {
   background-color: #ED6A5A;
   box-shadow: -1px 5px 11px 5px rgba(0, 0, 0, 0.38);
-  margin-bottom: 2rem;
   text-align: center;
   font-family: 'Patua One', cursive;
-  padding: 1rem;
+  padding: 1rem 0 1rem 0;
 }
 .banner h1 {
   margin: 0 0 1rem 0;
+}
+.banner p {
+  margin: 0 1rem 0 1rem;
 }
 .banner .bannerimages {
   display: flex;
@@ -110,6 +111,20 @@ h1 {
 }
 .banner .bannerimages .bannerimage img {
   max-width: 100px;
+}
+.banner table {
+  gap: 0;
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+}
+.banner table tr th {
+  border-style: solid;
+  border-width: thin;
+}
+.banner table tr td {
+  border-style: solid;
+  border-width: thin;
 }
 .button {
   background-color: #F4F1BB;
@@ -231,9 +246,10 @@ footer .copyright {
   animation-delay: 15s;
 }
 .footergrid {
-  padding: 2rem 10% 2rem 10%;
-  display: grid;
-  grid-template-columns: 50% 50% ;
+  padding: 2rem 2% 2rem 2%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 form {
   width: 100%;
