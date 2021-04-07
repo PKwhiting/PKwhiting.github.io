@@ -1,5 +1,5 @@
-{ "businesses":{
-  "business1":{
+{ "businesses":[
+  {
   "businessName":"PrintSignCo",
   "businessAddress": "12111 Manchaca Rd, Austin, TX 78747",
   "phoneNumber": "(512) 280-7446",
@@ -7,7 +7,7 @@
   "businessDesription": "PrintSignCo established in 2007 and commenced its operations under K1 Graphics in Round Rock, Texas. Since then to more defined more dominant name change “PrintSignCo” in 2011 and new operation in South Austin till now, our aim and focus have always been one thing: Offer Quality Service, Keep the price low and affordable,  reduce the time of production to shortest possible.",
   "logo": "images/logo1.png"
   },
-  "business2":{
+  {
   "businessName": "Manchaca Garage LLC",
   "businessAddress": "1100 Regal Row SUITE K, Austin, TX 78748",
   "phoneNumber": "(512) 280-1765",
@@ -15,7 +15,7 @@
   "businessDesription": "With over 30 years of hands-on automotive diagnostic and repair experience, from Nissan, Infiniti, Honda, Toyota and Mazda to Buick, Chevrolet, Dodge and Ford (to name a few) … Martin’s got you covered! Hailing from the mountains of Northern California, Sawyer has called small town-Texas home since early 2016. He began working with Martin at Manchaca Garage in 2016 and has more than 10 years of experience in the automotive repair industry.",
   "logo": "images/logo2.jpg"
   },
-  "business3":{
+  {
   "businessName": "1626 Auto Inspections",
   "businessAddress": "827 Farm to Market 1626, Austin, TX 78748",
   "phoneNumber": "(512) 280-3522",
@@ -23,7 +23,7 @@
   "businessDesription": "Owner Danny Gomez,  has lived in the Austin area for over 40 years.  He is a retired mechanic with over 30 years of experience and takes great pride in his profession.  His reputation of knowledge and integrity is well known in his community.  As a family business with over  30 years of experience in vehicles,  we also have many years of working towards our customers having a pleasant experience with our service.   We ONLY do inspections at our business which will not only make your experience with us quicker,  but also help keep your cost down.  We believe in - ' Honesty Is Our Policy'.",
   "logo": "images/logo3.png"
   },
-  "business4":{
+  {
   "businessName": "Macho Taco",
   "businessAddress": "12110 Manchaca Rd #102, Austin, TX 78748",
   "phoneNumber": "(512) 291-5104",
@@ -31,7 +31,7 @@
   "businessDesription": "Mexican Restaurant",
   "logo": "logo4.jpg"
   },
-  "business5":{
+  {
   "businessName": "Driftwood Builders Roofing",
   "businessAddress": "12308 Twin Creek Rd a101, Manchaca, TX 78652",
   "phoneNumber": "(512) 894-0129",
@@ -39,7 +39,7 @@
   "businessDesription": "Here at Driftwood Builders Roofing, we don't just build roofs; we have also built a reputation as a premier Austin, TX area residential roofing company where quality and service matter. We are a big enough roofing company to do the job right, but small enough to offer old-fashioned customer service to our customers.If you are looking for a professional roofing company in the Austin metropolitan area to inspect, repair, or replace your home's roof, you don't want to entrust this critical component to just anybody.",
   "logo": "images/logo5.png"
   },
-  "business6":{
+  {
   "businessName": "J & B Feed & Hay",
   "businessAddress": "12303 Edgebrook Dr, Manchaca, TX 78652",
   "phoneNumber": "(512) 282-4640",
@@ -47,7 +47,7 @@
   "businessDesription": "We now carry fall vegetable plants. Our veggies will be coming from an organic greenhouse in Georgetown. We will start with cabbage, broccoli, cauliflower, brussels, greens, lettuce, kale and see where it goes from there. Looking for a particular hay, feed or horse, cattle, poultry, goat, sheep, swine, deer or wildlife supplies? If we don’t have it in stock we may be able to order it for you!",
   "logo": "images/logo6.jpg"
   },
-  "business7":{
+  {
   "businessName": "Austin Roller Rink",
   "businessAddress": "11600 Manchaca Rd #101, Austin, TX 78748",
   "phoneNumber": "(512) 292-7528",
@@ -55,5 +55,5 @@
   "businessDesription": "We are a family fun place that caters to all ages. Come enjoy skating, arcade games, and private party rooms. We provide a clean, safe environment for all our patrons. This is a place were you can spend quality time with your kids doing something that you loved doing as a kid!",
   "logo": "images/logo7.gif"
   }
-}
+]
 }

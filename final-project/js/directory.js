@@ -1,17 +1,19 @@
-// const apiURL = "https://jsoneditoronline.org/#left=cloud.38a853c89133466197448ba72c8dd2f7";
-// fetch(apiURL)
-//   .then((response) => response.json())
-//   .then((jsObject) => {
-//     console.log(jsObject);
-//   let card = document.getElementById("cards");
-//     card[1].p.innerhtml = "tacos";
+const apiURL = "https://pkwhiting.github.io/final-project/slcoc.json";
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject.businesses);
+    
+    var i;
+    for (i = 0; i < 8; i++) {
+        let card = document.getElementById("cards");
+        let obj = card.children[i];
+        obj.children[0].src = jsObject.businesses[0].logo;
+    }
 
 
 
-
-//   });
-fetch("../slcoc.json")
-.then(response => {
-   return response.json();
-})
-.then(data => console.log(data));
+  });
+// let card = document.getElementById("cards");
+// let obj1 = card.children[0];
+// obj1.children[3].innerHTML = "tacos";
