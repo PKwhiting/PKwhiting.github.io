@@ -17,9 +17,4 @@ fetch(apiURL)
 
     }
 
-
-
   });
-// let card = document.getElementById("cards");
-// let obj1 = card.children[0];
-// obj1.children[3].innerHTML = "tacos";
