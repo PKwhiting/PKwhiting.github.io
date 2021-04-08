@@ -38,4 +38,30 @@
     .slgrid{
         grid-template-columns: 50% 50%;
     }
+
+    .bcard img {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        margin-bottom: auto;
+        margin-top: auto;
+      }
+      .bcard p:nth-of-type(2) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: right;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 16px;
+      }
+    #list{
+        display:inline;
+    }   
+    #grid{
+        display: inline;
+    }
 }
